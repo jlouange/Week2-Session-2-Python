@@ -4,3 +4,8 @@ def validate_input(user_input):
   else:
     print("Invalid input!")
 
+def create_message(name,age):
+  print("Hello {}, you are {} years old!".format(name,age))
+
+
+  
